@@ -1,0 +1,96 @@
+.tile {
+/*    height: 48px;*/
+/*    width: 48px;*/
+/*    border: 1px solid white;*/
+    padding: 0;
+    display:inline-block;
+    border-radius: 100%;
+}
+    
+#h1 {
+    text-align: center;
+    font-size: 35px;
+    display: block;
+    font-family: fantasy;
+    font-variant: small-caps;
+    margin-bottom: 10px;
+}
+
+#heading {
+    text-align: center;
+    height: 100px;
+    padding-top: 10px;
+}
+
+#newGrid {
+    float: left;
+    background-color: cornflowerblue;
+}
+.button {
+    margin-top: 10px;
+    background-color: darkgrey;
+    height: 35px;
+    width: 120px;
+    font:20px fantasy;
+    color: ghostwhite;
+    border-radius: 20px;
+}
+
+#resetGrid {
+    float: right;
+    background-color: cornflowerblue;
+}
+
+#buttonWrapper {
+    display: inline-block;
+    width: 345px;
+}
+
+#gridWrapper {
+    height: 800px;
+    width: 800px;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 0;
+}
+
+#currentGridSize {
+    float: left;
+    margin-top: -20px;
+}
+
+#gridSizeTextWrapper {
+    width: 790px;
+    margin: auto;
+}
+
+#fadeButton {
+    height: 30px;
+    width: 100px;
+    float: right;
+    margin-top: -70px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: cornflowerblue;
+    font-family: monospace;
+    color: floralwhite;
+}
+
+#randomColorButton {
+    
+    height: 30px;
+    width: 130px;
+    float: right;
+    margin-top: -30px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: cornflowerblue;
+    font-family: monospace;
+    color: floralwhite;
+}
+
+body {
+    background-color: #EBF5FF;
+}
+
+
