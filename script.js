@@ -7,7 +7,7 @@ $(document).ready(function() {
     var fadeButton = $('#fadeButton');
     var randomColorButton = $('#randomColorButton');
     var newTile = '<div class="tile"></div>';
-    var gridSize = 800;
+    var gridSize = 700;
     var tiles = 16;
     var limit = 72;
     var fadeEffect = false;
@@ -16,6 +16,8 @@ $(document).ready(function() {
     var newColor = 'black';
     var hasHovered = false;
     fadeButton.append(fadeStringOff);
+    $('#gridWrapper').height(gridSize);
+    $('#gridWrapper').width(gridSize);
 
     start();
 

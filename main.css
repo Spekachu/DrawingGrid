@@ -9,9 +9,10 @@
     
 #h1 {
     text-align: center;
-    font-size: 35px;
+    font-size: 1.6em;
+    
     display: block;
-    font-family: fantasy;
+    font-family: serif;
     font-variant: small-caps;
     margin-bottom: 10px;
 }
@@ -29,9 +30,9 @@
 .button {
     margin-top: 10px;
     background-color: darkgrey;
-    height: 35px;
-    width: 120px;
-    font:20px fantasy;
+    height: 38px;
+    width: 140px;
+    font:20px monospace;
     color: ghostwhite;
     border-radius: 20px;
 }
@@ -43,13 +44,12 @@
 
 #buttonWrapper {
     display: inline-block;
-    width: 345px;
+    width: 310px;
 }
 
 #gridWrapper {
-    height: 800px;
-    width: 800px;
-    margin: 10px auto;
+    margin: 30px auto;
+/*    margin: 5em auto;*/
     text-align: center;
     line-height: 0;
 }
@@ -60,13 +60,13 @@
 }
 
 #gridSizeTextWrapper {
-    width: 790px;
+    width: 690px;
     margin: auto;
 }
 
 #fadeButton {
     height: 30px;
-    width: 100px;
+    width: 110px;
     float: right;
     margin-top: -70px;
     border-radius: 10px;
